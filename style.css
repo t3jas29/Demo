@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h2 {
+    color: rgba(255, 0, 25, 0.989);
+    font-size: 50px;
+    margin: 0;
+}
+
+.iframe-container {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 0px
+}
+
+.iframe-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.iframe-wrapper iframe {
+    border: none;
+    width: 600px;
+    height: 400px;
+}
+
+
+.custom-box {
+    border: 2px solid rgba(255, 0, 25, 0.989);
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.w3-wide {
+    font-size: 8px; /* Ensure consistency with inline style */
+    color: rgba(255, 0, 25, 0.989); /* Ensure consistency with inline style */
+}
+
+.custom-box {
+    background-color: #f0f0f0; /* Light gray background color */
+    padding: 20px; /* Padding inside the box */
+    margin-top: 20px; /* Gap from the top */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.custom-box h2 {
+    color: #333; /* Text color for the heading */
+    font-size: 12px; /* Font size for the heading */
+    margin: 0; /* Remove default margin */
+}
+
+.iframe-container {
+    position: relative; /* Add relative positioning */
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+    padding-top: 5px;
+    margin-left: 0px;
+}
+
+.iframe-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative; /* Add relative positioning */
+}
+
+
+
+#iframe1, #iframe2 {
+    border: none;
+    width: 950px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-left: 10px;
+}
+
+
+
+  .iframe-separator {
+    position: absolute; /* Add absolute positioning */
+    bottom: 0; /* Place at the bottom */
+    left: 0;
+    width: 74.2%;
+    height: 20px; /* Increase the height of the line */
+    background-color: #ed3838;
+    margin-bottom: 20px;
+    margin-left: 10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    margin-left: 950px;
+    margin-top: -540px;
+    border-radius: 15px; /* Rounded corners */
+    /* Shadow effect */
+}
+
+.iframe3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure the shadow doesn't overflow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.iframe3 iframe {
+    width: 250px;
+    height: 500px;
+    border: none; /* Remove default iframe border */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
